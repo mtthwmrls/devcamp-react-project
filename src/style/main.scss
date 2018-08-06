@@ -2,7 +2,36 @@
     //background-color: #CFCFCF;
 //}
 
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+#full-story {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.input {
+   margin-left: 20px;
+    
+}
+
 .card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     height: 736px;
     width: 1240px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
